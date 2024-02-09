@@ -1,0 +1,94 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#393d48;
+    color:White;    
+}
+
+img[src="toss.gif"]{
+    width: 400px;
+    border-radius: 10px;
+  
+}
+
+img[src="CoolClips_hand0068.png copy.png"]{
+    height: 350px;
+    width: 250px;
+}
+
+img[src="CoolClips_hand0068.png copy.png"]:hover{
+opacity:50%;
+}
+
+.heading{
+display: grid;
+place-items: center;
+grid-template-rows: 50px 50px;
+margin-top: 120px;
+margin-right: 50px;
+}
+.heading h1{
+    font-size: 50px;
+}
+.heading p{
+    font-size: 25px;
+}
+
+.grid2 span{
+text-align: center;
+color:black;
+font-size: 20px;
+margin-left: 25px;
+padding: 7px 18px;
+background-color: coral;
+border-radius: 25px;
+cursor: pointer;
+}
+
+.grid2 span:hover{
+    background-color: rgb(247, 104, 52);
+    color: white;
+    padding: 8px 22px;
+}
+
+.grid2 a img{
+    border-radius:0% 50% 50% 50%;
+   
+}
+
+.result{
+    display: grid;
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: inset 8px 8px 3px rgba(218, 208, 208, 0.986);
+   color: coral; 
+    justify-content: center;
+}
+
+.result h3{
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 4px;
+    -webkit-text-stroke:1px coral;
+    color: rgb(255, 255, 255);
+}
+
+
+.result button{
+width: 120px;
+height: 40px;
+font-size: 18px;
+background-color: coral;
+outline: none;
+border: none;
+border-radius: 5px;
+color: black;
+margin-top: 30px;
+}
+.result button:hover{
+    background-color: rgb(218, 89, 42);
+    color: white;
+}
